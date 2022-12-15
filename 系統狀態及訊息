@@ -1,0 +1,17 @@
+1. System Information
+查看機器現在的各大類硬體元件是否正常運作，如果有問題的地方有可能顯示 Degraded (黃色)、Failed (紅色)，
+可以依據發生問題的硬體類別，點選相對應類別查看較詳細的訊息。
+#Firmware version 韌體版本
+
+2. iLO Event Log
+與 iLO 有關的事件，像是 login, logout, remote console start, remote console stop ...等，另外關於機器的開機、關機、重開、電源中斷、電源回復、內建 Flash 初始化…等事件，也都可以在這裡看到。
+
+3. Integrated Management Log
+主機的硬體元件相關動作及訊息，像是 Power Supply, Drive Array, Disk Drive ...等，
+也會有關於硬體元件的錯誤訊息及原因描述，可查看之前發生過的歷史事件，例如：外部電力中斷、外部電力回復、硬碟無回應、硬碟故障、邏輯磁碟失敗... 等各種系統錯誤訊息，
+以釐清目前發生的故障是否為之前的事件所引發。
+
+4. Active Health System Log
+提供指定時間區段的所有資訊收集，收集完成會打包成 .ahs 檔案，無法直接閱讀，
+但可登入 HPE Active Health System Viewer Online，上傳收集的 .ahs 檔案，平台分析後會產生詳細的報告，
+關於 Active Health System Log 之後會再開一篇文章，詳細介紹使用方式及報告的內容呈現。
