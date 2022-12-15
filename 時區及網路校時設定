@@ -8,4 +8,4 @@ iLO 的時區及網路校時設定:
 iLO Web >>> Network >>> iLO Dedicated Network Port >>> SNTP
 #預設通常是 GMT+0 的時區
 
-![Image text]()
+![image](https://github.com/sasorior/iLO-InterFace/blob/b0a5f2c638c708b200d1ac223baf42ab2a810662/ILO_NTP.png)
